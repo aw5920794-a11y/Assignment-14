@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(4, 43, 56);
+}
+section{
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.a{
+    background-color: green;
+    padding: 20px;
+    grid-area: 1/1/4/2;
+}
+.b{
+    background-color: green;
+     padding: 20px;
+     grid-area: 1/2/1/4;
+}
+.c{
+    background-color: lab(43.55% 66.77 52.24);
+     padding: 20px;
+}
+.d{
+    background-color: rgb(205, 21, 21);
+     padding: 20px;
+}
+.e{
+    background-color: green;
+     padding: 20px;
+     grid-area: 2/4/5;
+     height: 170px;
+     
+}
+.f{
+    background-color: orange;
+     padding: 20px;
+     grid-area: 2/2;
+}
+.g{
+    background-color: red;
+     padding: 20px;
+}
+.h{
+    background-color: orange;
+     padding: 20px;
+}
