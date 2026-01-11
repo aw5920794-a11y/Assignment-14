@@ -10,7 +10,7 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .a{
     background-color: green;
@@ -51,3 +51,4 @@ section{
      padding: 20px;
 
 }
+
